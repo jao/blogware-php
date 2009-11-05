@@ -1,0 +1,85 @@
+/*
+# $Author: blogware $
+# $Date: 2003/07/04 20:55:59 $
+# $Revision: 1.3 $
+*/
+
+/* Gerais */
+body {margin: 10px}
+body,div,td,input,select,textarea {font-family:verdana,sans-serif; font-size:10px}
+body,input,select,textarea{ color:#222222; background-color:#DB778B}
+textarea {overflow:auto; overflow-x: hidden; padding: 5px; margin: 5px 0px 0px 0px}
+
+input,select,textarea{color:#222222; background-color:#E292A2}
+img{border:0px}
+b{font-weight:bold}
+
+form{margin:0px}
+
+input,select,textarea,img.picture {border: 1px solid black}
+
+.no-css {background: none; border: none}
+
+.DF-alert { color:#222222; background-color:#FF9999}
+
+a:link,a:visited,a:active,a:hover{color:#222222}
+a:link,a:visited{text-decoration:none}
+a:active,a:hover {text-decoration: underline}
+
+a.lnk-white:link,a.lnk-white:visited,a.lnk-white:active,a.lnk-white:hover{color:#FFFFFF; text-decoration:none}
+
+/* Fonts, Sizes and colors */
+.fn-0 {font-size:9px}
+.fn-1 {font-size:10px}
+.fn-2 {font-size:11px}
+.fn-3 {font-size:12px}
+.fn-4 {font-size:14px}
+.fn-5 {font-size:16px}
+
+.fn-black {color:#000000}
+.fn-gray-1 {color:#333333}
+.fn-gray-2 {color:#666666}
+.fn-gray-3 {color:#999999}
+.fn-gray-4 {color:#CCCCCC}
+.fn-white {color:#FFFFFF}
+
+.fn-laranja-1 { color: #FF9933 }
+
+/* background colors */
+.bg-black {background-color:#000000}
+.bg-gray-1 {background-color:#333333}
+.bg-gray-2 {background-color:#666666}
+.bg-gray-3 {background-color:#999999}
+.bg-gray-4 {background-color:#CCCCCC}
+.bg-white {background-color:#FFFFFF}
+
+.bg-none {background:none}
+
+/* Margin, spacers and sizes */
+.mr-5 {margin:5px}
+.mr-10 {margin:10px}
+
+.w-100 {width:100px}
+.w-150 {width:150px}
+.w-200 {width:200px}
+.w-250 {width:250px}
+.w-300 {width:300px}
+.w-350 {width:350px}
+.w-400 {width:400px}
+.w-450 {width:450px}
+.w-500 {width:500px}
+
+/* w3c.org requirements */
+.fn-black,.fn-white,.fn-gray-1,.fn-gray-2,.fn-gray-3,.fn-gray-4,.fn-laranja-1,a:link,a:visited,a:active {background:none}
+.bg-white,.bg-gray-1,.bg-gray-2,.bg-gray-3,.bg-gray-4 {color: #000000}
+.bg-black {color: #FFFFFF}
+
+div.header{color:#FFFFFF; background-color:#CC3C59; margin:5px 0px 5px 0px; padding: 0px; border:1px solid #222222; width:760px; height: 121px; overflow:hidden}
+div.menutit{color:#FFFFFF; background-color:#CC3C59; margin:5px 0px 5px 0px; padding: 5px; border:1px solid #222222; width:300px; font-weight:bold}
+div.menu{color:#222222; background-color:#FFFFFF; margin:5px 0px 5px 0px; padding: 5px; border:1px solid #222222; width:300px}
+div.date{color:#FFFFFF; background-color:#CC3C59; margin:5px 0px 5px 0px; padding: 5px; border:1px solid #222222; width:450px; font-weight:bold}
+div.content{color:#222222; background-color:#FFFFFF; padding:5px; width:450px; border:1px solid #222222; margin: 0px 0px 5px 0px}
+div.title{padding:0px 0px 5px 0px ;border-bottom:1px solid #222222; margin:0px 0px 10px 0px}
+div.comment{margin:10px 0px 0px 0px; text-align: right}
+div.viewcomments{padding:5px 0px 0px 0px ; border-top:1px solid #222222; margin: 5px 0px 0px 0px}
+div.footer{color:#222222; background-color:#FFFFFF; margin:5px 0px 5px 0px; padding: 5px; border:1px solid #222222; width:760px; text-align:left}
