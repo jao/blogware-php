@@ -11,7 +11,7 @@ $siteUrl = '..';
 # Admin/Login info
 $adminLogin = 'blogwareuser';
 $adminPassword = '123';
-$adminEmail = 'blogware@mandic.com.br';
+$adminEmail = 'blogware@code42.com.br';
 
 $cssFile = 'original.css';
 $langFile = 'lang.pt.php';
